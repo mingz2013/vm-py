@@ -16,8 +16,9 @@ class Thread(object):
 
     def __init__(self):
         self.stack = Stack()
+        self.pc = None
 
-    def run(self):
+    def init(self):
         """
-        run
+        init
         """

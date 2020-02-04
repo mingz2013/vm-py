@@ -19,7 +19,7 @@ class Process(object):
     def __init__(self):
         self.thread_list = []
 
-    def run(self):
+    def init(self):
         t = Thread()
         self.thread_list.append(t)
-        t.run()
+        t.init()

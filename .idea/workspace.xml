@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe30790b-b4b0-41ed-9ecb-81444ea97bd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vm-py.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_code/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_code/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions/instruction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions/new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions/nop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter/interpreter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,11 +74,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580796812015</updated>
-      <workItem from="1580796813773" duration="1451000" />
+      <workItem from="1580796813773" duration="4260000" />
     </task>
+    <task id="LOCAL-00001" summary="vm">
+      <created>1580798273831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580798273831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vm" />
+    <option name="LAST_COMMIT_MESSAGE" value="vm" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580798273677">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580798273677" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580798281149">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580798281149" />
   </component>
 </project>

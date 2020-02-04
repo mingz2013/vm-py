@@ -20,7 +20,10 @@ class VM(object):
     def __init__(self):
         self.process_list = []
 
-    def run(self):
+    def init(self):
         p = Process()
         self.process_list.append(p)
-        p.run()
+        p.init()
+
+    def run(self):
+        pass
