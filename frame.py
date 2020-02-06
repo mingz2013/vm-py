@@ -16,4 +16,5 @@ class Frame(StackNode):
 
     def __init__(self):
         super(Frame, self).__init__()
+        self.pc = None
         self.vars = []

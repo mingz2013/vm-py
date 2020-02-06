@@ -8,7 +8,7 @@ Module Description
 
 """
 
-from process import Process
+from stack import Stack
 
 
 class VM(object):
@@ -18,12 +18,10 @@ class VM(object):
     """
 
     def __init__(self):
-        self.process_list = []
+        self.stack = Stack()
 
     def init(self):
-        p = Process()
-        self.process_list.append(p)
-        p.init()
+        pass
 
     def run(self):
         pass

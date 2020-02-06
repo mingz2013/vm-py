@@ -23,3 +23,20 @@ class Instruction(object):
         """
         执行
         """
+
+
+class Nop(Instruction):
+    """
+    Nop，
+    """
+    pass
+
+
+def new_instruction(opcode):
+    """
+    factory
+    """
+    opcode_map = {
+        0x11: Nop,
+    }
+    return opcode_map.get(opcode)

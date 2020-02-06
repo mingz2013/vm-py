@@ -12,4 +12,6 @@ Module Description
 class Function(object):
     def __init__(self):
         self.name = ''
+        self.argl = []
+        self.argv = {}
         self.opcodes = []
