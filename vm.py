@@ -36,9 +36,9 @@ class VM(object):
 
     def loop(self):
         while True:
-            i = self.cur_call_frame.fetch()
-            i_obj = new_instruction(i)
-            i_obj.execute(self)
+            data = self.cur_call_frame.fetch()
+            inst = new_instruction(data)
+            inst.execute(self)
 
     @property
     def cur_call_frame(self):

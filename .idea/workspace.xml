@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe30790b-b4b0-41ed-9ecb-81444ea97bd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/call_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/call_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions/instruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/instructions/instruction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/call_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/call_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <workItem from="1580796813773" duration="4332000" />
       <workItem from="1580977663262" duration="1750000" />
       <workItem from="1580991913423" duration="9000" />
-      <workItem from="1581045676931" duration="11335000" />
+      <workItem from="1581045676931" duration="14142000" />
     </task>
     <task id="LOCAL-00001" summary="vm">
       <created>1580798273831</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581068321672</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="vm">
+      <created>1581073217634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581073217634</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,13 +114,17 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1581068321507">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1581073217535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581068321507" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581068409888">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581073217535" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581073224498">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581068409888" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581073224498" />
+    <state x="378" y="212" width="683" height="476" key="find.popup" timestamp="1581076248600">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="212" width="683" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581076248600" />
   </component>
 </project>
