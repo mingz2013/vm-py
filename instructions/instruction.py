@@ -9,17 +9,32 @@ Module Description
 """
 
 
+def new_instruction(opcode):
+    """
+    factory
+    """
+    opcode_map = {
+        0x11: Nop,
+    }
+    return opcode_map.get(opcode)
+
+
 class Instruction(object):
     """
 
     """
+
+    def __init__(self, opcode):
+        self.opcode = opcode  # 指令原始数据
+        self.name = None  # name
+        self.op_mode = None  # 操作码类型
 
     def fetch_operands(self):
         """
         从字节码中提取操作数
         """
 
-    def execute(self, frame):
+    def execute(self, vm):
         """
         执行
         """
@@ -29,14 +44,24 @@ class Nop(Instruction):
     """
     Nop，
     """
-    pass
 
 
-def new_instruction(opcode):
+class Add(Instruction):
     """
-    factory
+    Add
     """
-    opcode_map = {
-        0x11: Nop,
-    }
-    return opcode_map.get(opcode)
+
+    def execute(self, vm):
+        """
+
+        """
+
+
+class Jmp(Instruction):
+    """
+    跳转
+    """
+
+    def execute(self, vm):
+        offset = self.opcode << 0xffff
+        vm.add_pc(offset)
