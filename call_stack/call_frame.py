@@ -8,7 +8,7 @@ Module Description
 
 """
 
-from call_stack import StackNode
+from call_stack.call_stack import StackNode
 
 
 class Stack(object):

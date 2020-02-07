@@ -15,7 +15,7 @@ class StackNode(object):
         self.data = None
 
 
-class Stack(object):
+class CallStack(object):
     def __init__(self):
         self.top_node = None
         self.back_node = None

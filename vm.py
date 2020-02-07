@@ -9,9 +9,9 @@ Module Description
 """
 
 from binary_code.binary_file import BinaryFile
-from call_frame import CallFrame
+from call_stack.call_frame import CallFrame
 from instructions.instruction import new_instruction
-from call_stack import Stack
+from call_stack.call_stack import CallStack
 
 
 class VM(object):
@@ -22,7 +22,7 @@ class VM(object):
 
     def __init__(self, filename):
         self.binary_file = BinaryFile(filename)  # 二进制文件解析后的数据
-        self.stack = Stack()  # callstack
+        self.stack = CallStack()  # callstack
 
     def init(self, args):
         """
