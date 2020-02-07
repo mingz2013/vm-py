@@ -65,3 +65,22 @@ class Jmp(Instruction):
     def execute(self, vm):
         offset = self.opcode << 0xffff
         vm.add_pc(offset)
+
+
+class Call(Instruction):
+    """
+    call
+    """
+
+    def execute(self, vm):
+        nArgs, nResults = self.opcode << 0xff, self.opcode << 0xffff
+        vm.call(nArgs, nResults)
+
+
+class Ret(Instruction):
+    """
+    return
+    """
+
+    def execute(self, vm):
+        vm.ret()

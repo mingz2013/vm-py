@@ -40,15 +40,20 @@ class CallFrame(StackNode):
 
     """
 
-    def __init__(self, proto):
+    def __init__(self, proto, args, results):
         super(CallFrame, self).__init__()
         self._pc = 0  # program counter
         self.proto = proto  # ProtoType, 函数原型，用于从函数原型里面读取常量，指令等
         self.stack = Stack()  # 栈
 
-        # 变长参数
-        self.argl = []
-        self.argd = {}
+        self.args = args  # 参数
+        self.results = results  # 结果
+
+    def pop(self):
+        return self.stack.pop()
+
+    def push(self, obj):
+        self.stack.push(obj)
 
     @property
     def pc(self):
